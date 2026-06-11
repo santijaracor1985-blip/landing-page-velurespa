@@ -6,14 +6,15 @@ function App() {
     <header className="navbar">
       <img src={logo} alt="VelureSpa" className="logo" />
 
-      <nav>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </nav>
+      <div className="auth-buttons">
+        <button className="btn-login">
+          Iniciar Sesión
+        </button>
+
+        <button className="btn-register">
+          Registrarse
+        </button>
+      </div>
     </header>
   );
 }
