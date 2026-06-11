@@ -1,8 +1,10 @@
+import Hero from './components/Hero';
 import logo from './assets/image.png';
 import './App.css';
 
 function App() {
   return (
+    <>
     <header className="navbar">
       <img src={logo} alt="VelureSpa" className="logo" />
 
@@ -16,6 +18,9 @@ function App() {
         </button>
       </div>
     </header>
+  
+  <Hero />
+  </>
   );
 }
 

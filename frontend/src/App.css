@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap');
 .navbar{
   display:flex;
   justify-content:space-between;
@@ -5,6 +6,21 @@
   padding:15px 50px;
   background-color:#E8DDF5;
   width:100%;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:#e6dfcd;
+    font-family:'Poppins', sans-serif;
+}
+
+#root{
+    width:100%;
+    min-height:100vh;
 }
 
 .logo{
@@ -57,4 +73,63 @@
 
 .btn-register:hover{
   opacity:0.9;
+}
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:80px;
+    min-height:80vh;
+    background:#F8F5EC;
+}
+
+.hero-content{
+    width:50%;
+}
+
+.hero-tag{
+    color:#D4AF37;
+    font-weight:600;
+}
+
+.hero h1{
+    font-size:4rem;
+    color:#2B183F;
+    margin:20px 0;
+}
+
+.hero h1 span{
+    color:#D4AF37;
+}
+
+.hero p{
+    color:#555;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:20px;
+}
+
+.btn-primary{
+    background:#D4AF37;
+    color:white;
+    border:none;
+    padding:14px 30px;
+    border-radius:30px;
+}
+
+.btn-secondary{
+    background:transparent;
+    color:#D4AF37;
+    border:2px solid #D4AF37;
+    padding:14px 30px;
+    border-radius:30px;
+}
+
+.hero-image img{
+    width:500px;
+    border-radius:25px;
 }
