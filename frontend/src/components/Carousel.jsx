@@ -7,31 +7,30 @@ import 'swiper/css/pagination';
 function Carousel() {
   const slides = [
     {
-      image: 'https://images.unsplash.com/photo-1562322140-8baeececf3df?w=1600',
+      image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1600',
       title: 'Belleza y Elegancia',
-      text: 'Descubre una experiencia premium para el cuidado de tu imagen.',
     },
     {
-      image: 'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=1600',
+      image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=1600',
       title: 'Spa & Relajación',
-      text: 'Momentos únicos diseñados para tu bienestar y tranquilidad.',
     },
     {
-      image: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=1600',
+      image: 'https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=1600',
       title: 'Transforma tu Estilo',
-      text: 'Expertos en coloración, cortes y tratamientos capilares.',
     },
   ];
 
   return (
-  <Swiper
-  modules={[Autoplay, Pagination]}
-  spaceBetween={25}
-  slidesPerView={3}
-  autoplay={{ delay: 3500 }}
-  pagination={{ clickable: true }}
-  loop
->
+    <Swiper
+      modules={[Autoplay, Pagination]}
+      slidesPerView={1}
+      loop={true}
+      autoplay={{
+        delay: 3000,
+        disableOnInteraction: false,
+      }}
+      pagination={{ clickable: true }}
+    >
       {slides.map((slide, index) => (
         <SwiperSlide key={index}>
           <div
@@ -42,17 +41,6 @@ function Carousel() {
           >
             <div className="overlay">
               <h1>{slide.title}</h1>
-              <p>{slide.text}</p>
-
-              <div className="slide-buttons">
-                <button className="btn-register">
-                  Reservar Cita
-                </button>
-
-                <button className="btn-login">
-                  Conocer Más
-                </button>
-              </div>
             </div>
           </div>
         </SwiperSlide>

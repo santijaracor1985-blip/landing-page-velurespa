@@ -19,13 +19,9 @@ export function Hero() {
         </p>
 
         <div className="hero-buttons">
-          <button className="btn-primary">
-            Reservar Cita
-          </button>
+          
 
-          <button className="btn-secondary">
-            Ver Servicios
-          </button>
+          
         </div>
       </div>
 
