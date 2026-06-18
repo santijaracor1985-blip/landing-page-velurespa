@@ -1,16 +1,8 @@
-# React + Vite
+Descripción
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Velure Spa es una landing page desarrollada para promocionar los servicios de belleza, cuidado personal y bienestar ofrecidos por el spa. Su diseño está orientado a brindar una experiencia visual agradable y facilitar la interacción de los usuarios con la plataforma.
 
-Currently, two official plugins are available:
+La página permite a los usuarios conocer los servicios disponibles mediante una estructura organizada y fácil de navegar. Tiene con un encabezado que proporciona acceso a las opciones de registro y inicio de sesión, un carrusel de imágenes que presenta imagenes de servicios ofrecidos y un apartado que resalta los principales beneficios ofrecidos a los clientes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+contiene un apartado de página con información de contacto y  de comunicación, permitiendo que los usuarios puedan obtener información adicional o ponerse en contacto con el spa de manera sencilla.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

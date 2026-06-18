@@ -2,6 +2,7 @@ import Hero from './components/Hero';
 import Carousel from './components/carousel';
 import logo from './assets/image.png';
 import './App.css';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Carousel />
 
       <Hero />
+      <Footer/>
     </>
   );
 }

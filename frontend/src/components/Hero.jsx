@@ -8,21 +8,23 @@ export function Hero() {
         </span>
 
         <h1>
-          Transformamos tu estilo,
-          <span> realzamos tu belleza</span>
+          Descubre tu mejor versión en
+          <span> JC Alta Peluquería</span>
         </h1>
 
         <p>
-          En VelureSpa JC Alta Peluquería combinamos experiencia,
-          innovación y atención personalizada para ofrecer cortes,
-          coloraciones y tratamientos capilares de alta calidad.
+            En  JC Alta Peluquería ofrecemos una experiencia diseñada
+          para resaltar tu belleza y bienestar. Conoce nuestros servicios,
+          tratamientos capilares, cortes modernos y atención profesional en un
+          espacio pensado para ti.
         </p>
-
-        <div className="hero-buttons">
-          
-
-          
+        <div className="hero-features">
+          <span> Atención profesional</span>
+          <span> Tratamientos capilares</span>
+          <span> Estilo personalizado</span>
+          <span> Experiencia de calidad</span>
         </div>
+
       </div>
 
       <div className="hero-image">
